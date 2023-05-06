@@ -18,14 +18,15 @@ This is a solution to the [3-column preview card component challenge on Frontend
 ![Screenshot of the webpage](./images/Web%20capture_6-5-2023_192417_127.0.0.1.jpeg)
 
 ### Links
-- [Github repository](#)
-- [Deployed site](#)
+- [Github repository](https://github.com/Emmanuel-Afrifa/column-preview-card)
+- [Deployed site](https://column-preview-card-frontend.netlify.app/)
 
 ## Process
 ### Tools Used
 - HTML5
 - CSS
 - Flexbox
+- Grid
 
 ### What's new?
 I Utilized flex and margins to align the items in the main container. I also used grid's 'place-items' to align the main container in the center of the page.
