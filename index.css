@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Lexend+Deca&family=Outfit:wght@400;700&family=Source+Serif+Pro:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Hanken+Grotesk:wght@500;700;800&family=Outfit:wght@400;700&family=Source+Serif+Pro:wght@400;700;900&display=swap');
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    max-width: 100%;
+    display: grid;
+    place-items: center;
+    font-family: 'Lexend Deca';
+    min-height: 100vh;
+}
+
+#container {
+    width: 850px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.container-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: hsl(0, 0%, 95%);
+    padding: 40px;
+}
+
+.container-element img {
+    width: 65px;
+    margin-top: -20px;
+}
+
+.container-element h2 {
+    font-family: 'Big Shoulders Display';
+    font-size: 35px;
+    margin-top: -20px;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+}
+
+.container-element p {
+    font-size: 15px;
+    margin-top: -50px;
+    font-weight: 400;
+    width: 210px;
+    line-height: 26px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.container-element button {
+    width: 150px;
+    border-radius: 50px;
+    border: none;
+    height: 50px;
+    font-family: 'Lexend Deca';
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+
+#sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#sedans button {
+    color: hsl(31, 77%, 52%);
+}
+
+#sedans button:hover {
+    border: 1px solid hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+}
+
+#suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#suvs button {
+    color: hsl(184, 100%, 22%);
+}
+
+#suvs button:hover {
+    border: 1px solid hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+
+#luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#luxury button {
+    color: hsl(179, 100%, 13%);
+}
+
+#luxury button:hover {
+    border: 1px solid hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        min-height: 1400px;
+    }
+    
+    #container {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        height: 1300px;
+    }
+
+    .container-element {
+        height: 500px;
+    }
+
+    #sedans {
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+
+    #luxury {
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0px;
+    }
+}
